@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+@font-face{
+    font-family:'Gotham-Medium';
+    src:url(./fonts/GothamMedium.ttf)
+}
+@font-face{
+    font-family:'Gotham-Regular';
+    src:url(./fonts/Gotham\ Regular.otf)
+}
+@font-face{
+    font-family:'MarckScript-Regular';
+    src:url(./fonts/MarckScript-Regular.ttf)
+}
+
+@media only screen and  (max-width: 992px){
+    .form-2{
+        width: 100% !important;
+    }
+    .container-fluid{
+        padding-left: 30px ;
+        padding-right: 30px;
+    }
+}
+
+
+.image{
+    background-image: url(Sign-In-img-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+.brend{
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    background-color: black;
+    color:white;
+    font-size: 24px;
+    font-family:'MarckScript-Regular';
+}
+.maglo{
+    font-family:'Gotham-Medium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+.Welcome{
+    font-family:'Gotham-Medium';
+    font-style: normal;
+    font-weight: 400;
+    line-height:32px;
+}
+.please-enter{
+   font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:18px;
+    color:grey;
+    margin-bottom: 25px;
+}
+label, span, .forgot{
+    font-family:'Gotham-Medium';
+    font-style: normal;
+    font-weight: 400;
+    line-height:18px;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+.pas-box{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+input{
+    height:50px;
+    border: 1px solid gray;
+}
+.input-1::placeholder{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:18px;
+    color:grey;
+    
+}
+.input-2{
+  
+}
+.input-2::placeholder{
+    font-size: 40px;
+    
+}
+button img{
+    height:40px;
+    width:40px;
+}
+.green-btn{
+    height:50px;
+    background-color: rgb(202, 233, 27);
+    font-family:'Gotham-Medium';
+    font-style: normal;
+    font-weight: 400;
+    line-height:18px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+.green-btn:hover{
+    background-color: rgb(202, 233, 27);
+    border-radius: 10px;
+}
+.google-btn{
+    height:50px;
+    font-family:'Gotham-Medium';
+    font-style: normal;
+    font-weight: 400;
+    line-height:18px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: transparent;
+    margin-bottom: 32px;
+}
+.google-btn:hover{
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: transparent;
+}
+
+.curve-line{
+    height:60px;
+    width:150px;
+      border-top: 3px solid rgb(202, 233, 27);
+      border-bottom: 5px solid transparent;
+      border-right: 5px solid transparent;
+       border-left: 5px solid transparent;
+       border-radius:50%;
+       margin-left: 52%;
+}
+.please-enter-2{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:18px;
+    color:grey;
+    margin-bottom: 25px;
+}
+.curve-line-2 {
+    height: 30px;
+    width: 70px;
+    border-top: 3px solid rgb(202, 233, 27);
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-radius: 50%;
+    margin-left: 66%;
+}
+.input-3{
+    height:50px;
+    border: 1px solid gray !important;
+    background-color: transparent;
+    
+}
+.input-4{
+    height:50px;
+    border: 1px solid gray !important;
+    background-color: transparent;
+}
+.input-3::placeholder{
+    color: white;
+    background-color: transparent !important;
+}
+.input-4::placeholder{
+    font-size: 40px;
+    color: white;
+    background-color: transparent !important;
+}
+.brend-2{
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    background-color: white;
+    color:black;
+    font-size: 24px;
+    font-family:'MarckScript-Regular';
+}
+.maglo-2{
+    font-family:'Gotham-Medium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 0;
+    color: white;
+}
